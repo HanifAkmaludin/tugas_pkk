@@ -1,0 +1,227 @@
+
+nav{
+  background-image: linear-gradient(to left, rgb(252, 120, 72), orange);
+}
+.navbar-brand, .navbar-nav a{
+  color: white !important;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+}
+.navbar-brand{
+  font-size: 32px;
+  font-family: Viga;
+}
+
+.navbar-nav a{
+  margin-right: 30px;
+  text-transform: uppercase;
+}
+
+.jumbotron{
+  background-image: linear-gradient(to left, rgb(252, 120, 72), orange);
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+  padding-top: 40px;
+  width: 100%;
+}
+
+.jumbotron h1{
+  margin-top: 150px;
+  text-transform: uppercase;
+}
+
+.jumbotron .button{
+  background-color: rgba(255,255,255,1);
+  border: none;
+  color: rgb(53, 53, 53);
+  border-radius: 20px;
+  font-weight: 500;
+  padding: 5px 20px;
+  transition: .2s;
+}
+
+.jumbotron img{
+  position: absolute;
+}
+
+.jumbotron .button:hover{
+  background-color: rgba(255,255,255,.8);
+}
+
+
+.about{
+  color: rgb(53, 53, 53);
+  padding-top: 100px;
+}
+.about .hero{
+  box-shadow: 7px 7px 10px rgba(0,0,0,0.7);
+}
+
+.about h1{
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 10px;
+  
+}
+
+.about h5{
+  font-weight: 400;
+}
+.about p{
+  text-align: justify;
+}
+
+.about .icon img{
+  cursor: pointer;
+}
+
+.about .icon .instagram{
+  width: 25px;
+  height: 25px;
+}
+
+.about .icon .facebook{
+  width: 27px;
+  height: 27px;
+}
+
+.about .icon .twitter{
+  width: 23px;
+  height: 23px;
+}
+
+.about .icon .instagram, .about .icon .facebook, .about .icon .twitter{
+  margin-right: 10px;
+  transition: .3s;
+}
+
+.about .text{
+  border-left: 3px solid rgb(252, 120, 72);
+  padding: 10px 25px;
+}
+
+.skills{
+  background-image: linear-gradient(to left, rgb(252, 120, 72), orange);
+  margin-top: 100px;
+  padding: 50px 0 30px 0;
+}
+
+.skills h1{
+  color: white !important;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.7);
+}
+
+.skills i{
+  font-size: 30px;
+  line-height: 50px;
+  color: white !important;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.7);
+}
+
+.skills .bulat{
+  background-image: linear-gradient(to left, rgb(252, 120, 72), orange);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.skills .card-title{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.skills .card{
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.skills h1{
+  position: relative;
+  text-transform: uppercase;
+}
+
+.projects{
+  padding-top: 60px;
+}
+.projects .container{
+  margin: 0 auto;
+}
+.projects .card {
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.projects .card img{
+  border-radius: 20px 20px 0 0;
+}
+
+.projects .card .btn{
+  margin-top: 20px;
+}
+.projects h1{
+  text-transform: uppercase;
+}
+
+.contact{
+  background-image: linear-gradient(to left, rgb(252, 120, 72), orange);
+  color: white !important;
+  padding-bottom: 50px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.7);
+}
+
+.contact .form-contact{
+  margin-top: -100px;
+}
+
+.contact h1{
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.7);
+}
+
+footer{
+  background-image: linear-gradient(to left, rgb(252, 120, 72), orange);
+  height: 65px;
+  color: white;
+  font-size: 20px;
+  line-height: 65px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.7);
+}
+
+
+
+
+
+
+@media (max-width: 670px) { 
+  .jumbotron h1{
+    margin-top: 100px;
+    font-size: 40px;
+  }
+  .jumbotron img{
+    position: relative;
+    margin: -150px 0 50px 100px;
+  }
+
+  .about img{
+    width: 450px;
+  }
+}
+
+@media (max-width: 992px) {
+  .jumbotron img{
+    height: 400px;
+    width: 400px;
+    top: 80px;
+  }
+  .about .text{
+    margin-top: 50px;
+  }
+  .contact{
+    margin-top: 50px;
+  }
+  .contact svg{
+    margin-bottom: 50px;
+  }
+}
+
